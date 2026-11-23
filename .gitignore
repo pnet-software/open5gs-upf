@@ -1,0 +1,9 @@
+# Packaged charts
+*.tgz
+
+# Local setup notes (lab-specific)
+upf-steps.md
+
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,24 @@
+# Changed for open5gs-upf by pnet-software: home, maintainers and a keyword removed, version set by CI; see THIRD_PARTY.md
+# The Open5GS UPF as its own release, connecting to the SMF of a separate Open5GS release (e.g. open5gs-em-stack).
+# Published as oci://registry-1.docker.io/pnetrepo/open5gs-upf
+annotations:
+  artifacthub.io/category: networking
+apiVersion: v2
+# The Open5GS version. The image tag itself is values.yaml's image.tag.
+appVersion: 2.7.2
+dependencies:
+- name: common
+  repository: https://charts.bitnami.com/bitnami
+  tags:
+  - bitnami-common
+  version: 1.x.x
+description: 'Helm chart to deploy Open5gs UPF service on Kubernetes. '
+icon: https://open5gs.org/assets/img/open5gs-logo.png
+keywords:
+- network
+- ngc
+name: open5gs-upf
+sources:
+- http://open5gs.org
+# Overwritten by CI at package time: version = git tag without "v"
+version: 1.0.0

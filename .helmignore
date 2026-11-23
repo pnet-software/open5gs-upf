@@ -1,0 +1,11 @@
+# Not part of the packaged chart
+.git/
+.gitignore
+.helmignore
+upf-steps.md
+*.tgz
+.vscode/
+.idea/
+.DS_Store
+.github/
+.gitattributes

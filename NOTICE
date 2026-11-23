@@ -1,0 +1,18 @@
+open5gs-upf
+Copyright 2026 P-NET New Generation Emerging Networks & Verticals Private Company
+
+This product includes software developed by
+P-NET New Generation Emerging Networks & Verticals Private Company (https://p-net.gr/)
+as part of TEP (Telco Exposure & Programmability).
+
+--------------------------------------------------------------------------------
+Third-party charts
+
+This chart is a modified version of the open5gs-upf chart from Gradiant
+5g-charts (https://github.com/Gradiant/5g-charts), Copyright 2020 Gradiant,
+licensed under the Apache License, Version 2.0.
+
+charts/common is the Bitnami common chart (https://github.com/bitnami/charts),
+Copyright (c) 2022 Bitnami, licensed under the Apache License, Version 2.0.
+
+The sources and the changes made to them are listed in THIRD_PARTY.md.

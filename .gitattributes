@@ -1,0 +1,2 @@
+# Helm templates and YAML are read on Linux (CI, the cluster); keep them LF everywhere
+* text=auto eol=lf
